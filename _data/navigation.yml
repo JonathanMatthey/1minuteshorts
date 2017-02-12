@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: Episodes
+  url: /episodes/
+  excerpt: "Stories from the road"
+  image: videos/big-puddle-400x250.jpg
+
+- title: Rushes
+  url: /rushes/
+  excerpt: "Rough cuts and random stuff"
+  image: pine-barrens-500/ktm-adv-990-400x250.jpg
+
+- title: About
+  url: /about/
+  excerpt: ""
+  image: 4yadv-400x250.jpg
