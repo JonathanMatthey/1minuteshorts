@@ -1,9 +1,9 @@
 ---
-layout: album
-title: "Stories"
+layout: archive
+title: "Bins"
 date: 2016-11-30T11:40:45-04:00
 modified:
-excerpt: ""
+excerpt: "Rough cuts and random stuff"
 tags: []
 image:
   feature:

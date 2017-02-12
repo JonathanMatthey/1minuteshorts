@@ -12,6 +12,8 @@ share: false
 ads: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi atque quia porro saepe dignissimos facere quam vel? Iste voluptate nulla consectetur iure soluta harum deserunt aliquid, consequatur placeat, saepe aperiam.
+Traveling from New York to Oregon across the Trans American Trail, then all the way down to Patagonia!
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi atque quia porro saepe dignissimos facere quam vel? Iste voluptate nulla consectetur iure soluta harum deserunt aliquid, consequatur placeat, saepe aperiam.
+<img src="/images/4yadvmap.jpg" alt="4yadv-map"/>
+
+<img src="/images/jonathan-matthey-drz-black-white.jpg" alt="jonathan-matthey-drz-black-white"/>

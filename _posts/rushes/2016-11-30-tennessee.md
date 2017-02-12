@@ -1,7 +1,7 @@
 ---
 layout: media
 title: "Tennessee"
-categories: rushes
+categories: bins
 excerpt: "excerpt here"
 share: false
 image:

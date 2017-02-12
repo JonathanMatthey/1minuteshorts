@@ -1,10 +1,10 @@
 ---
 layout: archive
-title: "Videos"
+title: "Episodes"
 date: 2014-05-30T11:39:03-04:00
 modified:
-excerpt: ""
-tags: []
+excerpt: "Stories and videos from the road"
+tags: ['motorcycle adventure']
 image:
   feature:
   teaser:
