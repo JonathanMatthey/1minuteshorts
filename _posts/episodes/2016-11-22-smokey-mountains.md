@@ -1,13 +1,12 @@
 ---
 layout: article
-title: "Leaving NYC"
+title: "Smokey Mountains"
 categories: episodes
-modified: 2016-06-01T16:28:11-04:00
-excerpt: "A ton of text to test readability."
-tags: [sample]
+excerpt: "Racing through before the snow catches up."
+tags: [smokey mountains, motorcycle adventure, advrider, water crossings]
 image:
-  feature: 1600x800.gif
-  teaser: underconstruction.gif
+  feature: videos/creek-crossing-1600x800.jpg
+  teaser: videos/creek-crossing-400x250.jpg
 comments: true
 ---
 

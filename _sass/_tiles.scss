@@ -14,7 +14,7 @@
   }
   .entry-date {
     @include font-size(16,no);
-    color: lighten($text-color,100);
+    color: lighten($text-color,20);
     float: right;
     margin-top:15px;
   }

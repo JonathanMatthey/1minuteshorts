@@ -1,18 +1,18 @@
 # Authors
 
-billy_rick:
-  name: Billy Rick
-  web: http://thewhip.com
-  email: billy@rick.com
-  bio: "What do you want, jewels? I am a very extravagant man."
+matthey:
+  name: Jonathan Matthey
+  web: http://4yadv.com
+  email: 4yadventure@gmail.com
+  bio: "Scottish"
   avatar: bio-photo.jpg
-  twitter: extravagantman
+  twitter: 4yadv
   google:
     plus: +BillyRick
 
-cornelius_fiddlebone:
-  name: Cornelius Fiddlebone
-  email: cornelius@thewhip.com
+alex:
+  name: Alex Saladbar
+  email: alex@qwe.com
   bio: "I ordered what?"
   avatar: bio-photo.jpg
   twitter: rhymeswithsackit

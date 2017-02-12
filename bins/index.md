@@ -11,7 +11,7 @@ image:
 ---
 
 <div class="tiles">
-{% for post in site.categories.stories %}
+{% for post in site.categories.bins %}
   {% include album-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
