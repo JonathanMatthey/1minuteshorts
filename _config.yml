@@ -1,5 +1,4 @@
 # Site wide configuration
-
 title: "4YADV"
 description: "Trans American Trail, Pan American Highway, Motorcycle adventure. Stories and videos from a 4 year adventure."
 logo: # 120x120 px default image used for Twitter summary card
@@ -10,7 +9,6 @@ feed:
   path: atom.xml
 
 # Jekyll configuration
-
 sass:
   sass_dir: _sass
   style: compressed
