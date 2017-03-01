@@ -7,7 +7,7 @@
    ========================================================================== */
 
 #masthead {
-	padding: $gutter / 2 ;
+	padding: $gutter/4 $gutter ;
 	z-index: 5;
 	@include transform(translate(0,0));
 	@include transition(500ms cubic-bezier(.645,.045,.355,1.000));
@@ -267,6 +267,12 @@
 	position: relative;
 	margin-left: -1 * $gutter;
 	margin-right: -1 * $gutter;
+
+	@include media($medium) {
+		@include font-size(24);
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
 
 /*

@@ -6,7 +6,6 @@ modified:
 excerpt: "Stories and videos from the road"
 tags: ['motorcycle adventure']
 image:
-  feature:
   teaser:
 ---
 
