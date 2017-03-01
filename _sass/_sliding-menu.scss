@@ -36,6 +36,11 @@
   cursor: pointer;
   z-index: 20;
   box-sizing: border-box;
+
+  @include media($medium) {
+    display: none;
+  }
+
   &:hover {
   }
   transition: $sliding-menu-animation;
