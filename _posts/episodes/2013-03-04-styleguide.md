@@ -1,12 +1,12 @@
 ---
 layout: article
-title: "Smokey Mountains"
+title: "Motocreek - Austin, TX"
 categories: episodes
-excerpt: "Racing through before the snow catches up."
-tags: [smokey mountains, motorcycle adventure, advrider, water crossings]
+excerpt: "Mud with a side of mud."
+tags: [motocreek, austin texas]
 image:
   feature: videos/creek-crossing-1600x800.jpg
-  teaser: videos/creek-crossing-400x250.jpg
+  teaser: videos/motocreek.jpg
 comments: true
 ---
 

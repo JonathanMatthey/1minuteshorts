@@ -7,7 +7,7 @@
    ========================================================================== */
 
 #masthead {
-	padding: $gutter/4 $gutter ;
+	padding: $gutter/4 $gutter*2 ;
 	z-index: 5;
 	@include transform(translate(0,0));
 	@include transition(500ms cubic-bezier(.645,.045,.355,1.000));
@@ -61,6 +61,8 @@
 
 .menu {
 	li {
+		margin-right:10px;
+		margin-left:10px;
 		float: left;
 		&:last-child a {
 			@include media($medium) {
@@ -145,7 +147,7 @@
    ========================================================================== */
 
 #page-wrapper {
-	padding: 0 $gutter; // add white space for smaller screens
+	padding: 0 $gutter*2; // add white space for smaller screens
 	@include size(100% 100%);
 	-webkit-overflow-scrolling: touch;
 	z-index: 2;
@@ -168,6 +170,13 @@
 	}
 	.page-title {
 		@include fill-parent;
+		text-align: center;
+		padding: 30px 0 50px 0;
+
+		h1{
+			text-transform:uppercase;
+			letter-spacing: 5px;
+		}
 	}
 	@at-root {
 		.page-content {

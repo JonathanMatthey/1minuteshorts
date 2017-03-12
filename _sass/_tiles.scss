@@ -5,6 +5,8 @@
 .tile {
   @include outer-container;
   margin-bottom: $gutter;
+  position: relative;
+
   @include media($micro) {
     @include fill-parent;
   }
@@ -12,38 +14,72 @@
     @include span-columns(4);
     @include omega(3n);
   }
+  time{
+    display: none;
+  }
   .entry-date {
     @include font-size(16,no);
     color: lighten($text-color,20);
     float: right;
     margin-top:15px;
   }
+  .tile-heading{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    color: white;
+    text-align: center;
+    padding: 0 $gutter;
+  }
   .post-title {
-    @include font-size(18,no);
-    float:left;
+    @include font-size(20,no);
+    text-transform: uppercase;
+    letter-spacing: 2px;
   }
   .post-excerpt {
-    @include font-size(16);
+    @include font-size(18);
     margin-top:5px;
+    font-family: 'FuturaBT-Light';
+    font-weight: 300;
+    font-style: italic;
   }
   .post-teaser {
     position: relative;
     display: block;
-    &:after {
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      background: rgba($base-color,0);
-      pointer-events: none;
-      @include transition(background 0.3s);
+  }
+
+  .tile-img-wrapper:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(#000,0);
+    pointer-events: none;
+    @include transition(background 0.3s);
+  }
+
+  &:hover {
+    .tile-img-wrapper:after {
+      background: rgba(#000,0.4);
     }
-    &:hover {
-      &:after {
-        background: rgba($base-color,0.2);
-      }
-    }
+  }
+
+  .post-teaser:after{
+    display: block;
+    content:'';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, transparent 1%, rgba(0,0,0,0.03) 26%, rgba(0,0,0,0.4) 71%, rgba(0,0,0,0.5) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, transparent 1%, rgba(0,0,0,0.03) 26%, rgba(0,0,0,0.4) 71%, rgba(0,0,0,0.5) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, transparent 1%, rgba(0,0,0,0.03) 26%, rgba(0,0,0,0.4) 71%, rgba(0,0,0,0.5) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, transparent 1%, rgba(0,0,0,0.03) 26%, rgba(0,0,0,0.4) 71%, rgba(0,0,0,0.5) 100%);
   }
 }
