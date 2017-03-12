@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Ipsum"
+title: "Lorem"
 categories: episodes
 excerpt: "Lorem Ipsum."
 tags: [motocreek, austin texas]

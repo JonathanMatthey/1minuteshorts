@@ -4,7 +4,7 @@
 
 .tile {
   @include outer-container;
-  margin-bottom: $gutter;
+  margin-bottom: $gutter*1.5;
   position: relative;
 
   @include media($micro) {

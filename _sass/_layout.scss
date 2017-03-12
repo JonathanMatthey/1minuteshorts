@@ -171,7 +171,7 @@
 	.page-title {
 		@include fill-parent;
 		text-align: center;
-		padding: 30px 0 50px 0;
+		padding: 30px 0 30px 0;
 
 		h1{
 			text-transform:uppercase;
@@ -184,6 +184,27 @@
 
 			.tiles article img{
 				width: 100%;
+			}
+
+			.image-container,
+			.container,
+			h1,h2,h3,h4,h5,h6,
+			p{
+        @include clearfix;
+				@include media($medium) {
+					width:56%;
+					margin-left: auto;
+					margin-right: auto;
+				}
+			}
+
+			.img-full-width,
+			.image-container{
+				padding:50px 0;
+
+				img{
+					margin-bottom: $gutter;
+				}
 			}
 
 			// larger font for intro paragraph
@@ -210,6 +231,11 @@
 			.page-footer,
 			.pagination {
 				@include fill-parent;
+				@include media($medium) {
+					width:56%;
+					margin-left: auto;
+					margin-right: auto;
+				}
 			}
 			.page-meta {
 				p{
@@ -227,6 +253,20 @@
 				@include reset-all;
 				@include fill-parent;
 			}
+		}
+	}
+
+	.img-3col{
+		img{
+      @include span-columns(4);
+      @include omega(3n);
+		}
+	}
+
+	.img-2col{
+		img{
+      @include span-columns(6);
+      @include omega(2n);
 		}
 	}
 }
@@ -271,9 +311,33 @@
 // page header
 .page-feature {
 	@include fill-parent;
+	position: relative;
 	// expand image to cover full width of header
 	img {
 		width: 100%;
+	}
+	.page-title{
+		position: absolute;
+		top:50%;
+		transform:translateY(-50%);
+		color: white;
+
+		h1{
+			font-size:5vw;
+			font-family: $heading-heavy-font;
+		}
+	}
+
+	.page-excerpt{
+    font-family: 'FuturaBT-Light';
+    font-weight: 300;
+    font-style: italic;
+		margin-top: 0;
+		@include font-size(16);
+
+    @include media($medium) {
+			font-size:2vw;
+    }
 	}
 }
 // make image flush with edges on small screens

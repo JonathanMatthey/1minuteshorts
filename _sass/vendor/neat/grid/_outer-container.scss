@@ -9,7 +9,7 @@
 
 @mixin inner-container {
   @include clearfix;
-  // max-width: $max-width;
+  max-width: $max-width;
   margin: {
     left: auto;
     right: auto;

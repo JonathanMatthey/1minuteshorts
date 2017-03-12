@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-title: "4 year adventure - stories and videos"
+title: "4Y ADV - 4 year adventure - stories and videos"
 tags: [Trans American Trail, Pan American Highway, Motorcycle adventure]
 image:
   feature: 4yadv-cover.jpg

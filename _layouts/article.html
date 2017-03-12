@@ -11,11 +11,16 @@ layout: default
 			</div><!-- /.page-image -->
 			<div class="page-title">
 				<h1>{{ page.title }}</h1>
+        <p class="page-excerpt" itemprop="description">{{ page.excerpt | strip_html | truncate: 160 }}</p>
 			</div>
 		</div><!-- /.page-feature -->
+		{% else %}
+		<div class="page-title">
+			<h1>{{ page.title }}</h1>
+		</div>
 		{% endif %}
 		{% include breadcrumbs.html %}
-		<div class="inner-wrap">
+		<div class="">
 			<div id="content" class="page-content" itemprop="articleBody">
 				{{ content }}
 				<hr />
@@ -24,10 +29,10 @@ layout: default
 					{% if page.share != false %}{% include share-this.html %}{% endif %}
 					{% include page-meta.html %}
 				</footer><!-- /.footer -->
-				<aside>
+				<aside class="container">
 					{% if page.comments == true %}{% include comments.html %}{% endif %}
 				</aside>
 			</div><!-- /.content -->
-		</div><!-- /.inner-wrap -->
+		</div>
 	</article><!-- ./wrap -->
 </div><!-- /#main -->
