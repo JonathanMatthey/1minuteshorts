@@ -260,15 +260,19 @@
 
 	.img-3col{
 		img{
-      @include span-columns(4);
-      @include omega(3n);
+			@include media($medium) {
+	      @include span-columns(4);
+	      @include omega(3n);
+			}
 		}
 	}
 
 	.img-2col{
 		img{
-      @include span-columns(6);
-      @include omega(2n);
+			@include media($small) {
+	      @include span-columns(6);
+	      @include omega(2n);
+			}
 		}
 	}
 }

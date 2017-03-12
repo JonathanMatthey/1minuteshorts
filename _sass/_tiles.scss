@@ -4,15 +4,21 @@
 
 .tile {
   @include outer-container;
-  margin-bottom: $gutter*1.5;
+  margin-bottom: $gutter*2;
   position: relative;
 
   @include media($micro) {
     @include fill-parent;
   }
-  @include media(new-breakpoint(min-width em(480) 12)) {
+  @include media(new-breakpoint(min-width em(600) max-width em(900) 12)) {
+    @include span-columns(6);
+    @include omega(2n);
+    margin-bottom: $gutter;
+  }
+  @include media($medium) {
     @include span-columns(4);
     @include omega(3n);
+    margin-bottom: $gutter*1.5;
   }
   time{
     display: none;
