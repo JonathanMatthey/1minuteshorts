@@ -186,15 +186,17 @@
 				width: 100%;
 			}
 
-			.image-container,
-			.container,
-			h1,h2,h3,h4,h5,h6,
-			p{
-        @include clearfix;
-				@include media($medium) {
-					width:56%;
-					margin-left: auto;
-					margin-right: auto;
+			&.main-article{
+				.image-container,
+				.container,
+				h1,h2,h3,h4,h5,h6,
+				p{
+	        @include clearfix;
+					@include media($medium) {
+						width:56%;
+						margin-left: auto;
+						margin-right: auto;
+					}
 				}
 			}
 
