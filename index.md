@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: home
 permalink: /
 title: "4 year adventure - stories and videos"
 tags: [Trans American Trail, Pan American Highway, Motorcycle adventure]
