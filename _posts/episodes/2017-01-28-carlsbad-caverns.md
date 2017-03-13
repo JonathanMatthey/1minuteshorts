@@ -1,13 +1,14 @@
 ---
 layout: article
-title: "PB500 Pine Barrens"
+title: "Carlsbad Caverns, NM"
 categories: episodes
-excerpt: "3 days, 500miles, lots of sand."
+excerpt: "Quick stroll through a huge bat cave"
 author: matthey
-tags: [pb500]
+tags: [motocreek, austin texas]
 image:
   feature: 1600x800.gif
-  teaser: videos/pb500.jpg
+  teaser: videos/carlsbad-caverns.jpg
+comments: true
 ---
 
 ## Lorem

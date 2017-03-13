@@ -2,6 +2,7 @@
 layout: article
 title: "Great Smoky Mountains"
 categories: episodes
+author: matthey
 excerpt: "Racing through before the snow catches up."
 tags: [smokey mountains, motorcycle adventure, advrider, water crossings]
 image:

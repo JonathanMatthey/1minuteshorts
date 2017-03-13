@@ -1,13 +1,14 @@
 ---
 layout: article
-title: "PB500 Pine Barrens"
+title: "How to tow a bike like a pro"
 categories: episodes
-excerpt: "3 days, 500miles, lots of sand."
+excerpt: "Do's and dont's."
 author: matthey
-tags: [pb500]
+tags: [tow a bike, austin texas]
 image:
-  feature: 1600x800.gif
-  teaser: videos/pb500.jpg
+  feature: how-to-tow-like-a-pro/how-to-tow-like-a-pro-feature.jpg
+  teaser: videos/how-to-tow-a-bike-like-a-pro.jpg
+comments: true
 ---
 
 ## Lorem

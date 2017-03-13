@@ -21,9 +21,11 @@ layout: default
 		{% endif %}
 		{% include breadcrumbs.html %}
 		<div class="">
-			<div id="content" class="page-content main-article" itemprop="articleBody">
-				{{ content }}
-				<hr />
+			<div id="content" class="page-content" itemprop="articleBody">
+				<div class="article-content">
+					{{ content }}
+				</div>
+				<hr class="center"/>
 				<footer class="page-footer">
 					{% if page.categories %}{% include page-author.html %}{% endif %}
 					{% if page.share != false %}{% include share-this.html %}{% endif %}
