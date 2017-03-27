@@ -23,12 +23,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 <div class="image-container">
-  <img src="/images/motocreek/a.jpg" />
+  <img src="{{ site.url }}/images/motocreek/a.jpg" />
 
   <div class=" img-3col">
-    <img src="/images/motocreek/c.jpg" />
-    <img src="/images/motocreek/f.jpg" />
-    <img src="/images/motocreek/e.jpg" />
+    <img src="{{ site.url }}/images/motocreek/c.jpg" />
+    <img src="{{ site.url }}/images/motocreek/f.jpg" />
+    <img src="{{ site.url }}/images/motocreek/e.jpg" />
   </div>
 </div>
 
@@ -40,8 +40,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 <div class="image-container img-2col">
-  <img src="/images/motocreek/f.jpg" />
-  <img src="/images/motocreek/c.jpg" />
+  <img src="{{ site.url }}/images/motocreek/f.jpg" />
+  <img src="{{ site.url }}/images/motocreek/c.jpg" />
 </div>
 
 
@@ -51,7 +51,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 <div class="img-full-width">
-  <img src="/images/motocreek/g.jpg" />
+  <img src="{{ site.url }}/images/motocreek/g.jpg" />
 </div>
 
 <p>

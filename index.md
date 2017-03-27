@@ -1,10 +1,8 @@
 ---
 layout: home
 permalink: /
-title: "4Y ADV - 4 year adventure - stories and videos"
+title: "1MS - 1 minute shows: a collection of 1 minute movies on different topics"
 tags: [Trans American Trail, Pan American Highway, Motorcycle adventure]
-image:
-  feature: 4yadv-cover.jpg
 ---
 
 <div class="tiles">

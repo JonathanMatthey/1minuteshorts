@@ -1,13 +1,13 @@
 ---
 layout: article
-title: "Carlsbad Caverns, NM"
+title: "The Muddiest Flat"
 categories: episodes
-excerpt: "Quick stroll through a huge bat cave"
+excerpt: "Fixing a flat tire in the field."
 author: matthey
 tags: [motocreek, austin texas]
 image:
   feature: 1600x800.gif
-  teaser: videos/carlsbad-caverns.jpg
+  teaser: videos/muddiest-flat.jpg
 comments: true
 ---
 

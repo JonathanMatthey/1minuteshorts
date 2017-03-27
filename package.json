@@ -1,10 +1,10 @@
 {
-  "name": "4yadv-website",
+  "name": "myminutemovies-website",
   "version": "1.0.0",
   "private": true,
   "description": "Stories and videos from a 4 year adventure",
   "author": "Jonathan Matthey <mattheyj@gmail.com>",
-  "homepage": "http://4yadv.com/",
+  "homepage": "http://www.1minuteshorts.com/",
   "license": "UNLICENSED",
   "devDependencies": {
     "grunt": "~0.4.2",
