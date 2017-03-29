@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-title: "1MS - 1 minute shows: a collection of 1 minute movies on different topics"
+title: "WeeMovies: a collection of 1 minute short movies"
 tags: [Trans American Trail, Pan American Highway, Motorcycle adventure]
 ---
 

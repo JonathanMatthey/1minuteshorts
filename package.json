@@ -4,7 +4,7 @@
   "private": true,
   "description": "Stories and videos from a 4 year adventure",
   "author": "Jonathan Matthey <mattheyj@gmail.com>",
-  "homepage": "http://www.1minuteshorts.com/",
+  "homepage": "http://www.weemovies.com/",
   "license": "UNLICENSED",
   "devDependencies": {
     "grunt": "~0.4.2",

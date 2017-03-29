@@ -1,6 +1,6 @@
 # Site wide configuration
-title: "1 Minute Shorts"
-description: "One minute short films about a motorcycle adventure across the Trans American Trail and Pan American Highway."
+title: "Wee Movies"
+description: "One minute short films about motorcycle adventures across the Trans American Trail and Pan American Highway."
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale: en

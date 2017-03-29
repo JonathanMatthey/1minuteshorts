@@ -57,3 +57,34 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Chalet-light';
+  src: url('fonts/Chalet-ParisNineteenEighty.eot');
+  src: url('fonts/Chalet-ParisNineteenEighty.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Chalet-ParisNineteenEighty.woff') format('woff'),
+    url('fonts/Chalet-ParisNineteenEighty.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Chalet-heavy';
+  src: url('fonts/Chalet-NewYorkNineteenEighty.eot');
+  src: url('fonts/Chalet-NewYorkNineteenEighty.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Chalet-NewYorkNineteenEighty.woff') format('woff'),
+    url('fonts/Chalet-NewYorkNineteenEighty.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Chalet';
+  src: url('fonts/Chalet-LondonNineteenEighty.eot');
+  src: url('fonts/Chalet-LondonNineteenEighty.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Chalet-LondonNineteenEighty.woff') format('woff'),
+    url('fonts/Chalet-LondonNineteenEighty.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
