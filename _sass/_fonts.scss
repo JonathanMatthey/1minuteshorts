@@ -88,3 +88,54 @@
 }
 
 
+@font-face {
+  font-family: '.';
+  src: url('../fonts/GuardianEgyptianRegular.eot');
+  src: url('../fonts/GuardianEgyptianRegular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GuardianEgyptianRegular.woff') format('woff'),
+    url('../fonts/GuardianEgyptianRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '.';
+  src: url('../fonts/GuardianEgyptianBoldItalic.eot');
+  src: url('../fonts/GuardianEgyptianBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GuardianEgyptianBoldItalic.woff') format('woff'),
+    url('../fonts/GuardianEgyptianBoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: '.';
+  src: url('../fonts/GuardianEgyptianBold.eot');
+  src: url('../fonts/GuardianEgyptianBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GuardianEgyptianBold.woff') format('woff'),
+    url('../fonts/GuardianEgyptianBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '.';
+  src: url('../fonts/GuardianEgyptianRegularItalic.eot');
+  src: url('../fonts/GuardianEgyptianRegularItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GuardianEgyptianRegularItalic.woff') format('woff'),
+    url('../fonts/GuardianEgyptianRegularItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: '.';
+  src: url('../fonts/GuardianEgyptianLight.eot');
+  src: url('../fonts/GuardianEgyptianLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GuardianEgyptianLight.woff') format('woff'),
+    url('../fonts/GuardianEgyptianLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+

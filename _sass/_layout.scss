@@ -344,7 +344,7 @@
 	}
 
 	.page-excerpt{
-    font-family: 'FuturaBT-Light';
+    font-family: $base-font;
     font-weight: 300;
     font-style: italic;
 		margin-top: 0;
@@ -416,20 +416,24 @@
 }
 
 .main-site-title{
+	width: 100%;
   display: inline-block;
   padding: 0;
   // border-top: 4px solid #000;
   text-decoration: none;
-  color: #000;
-  font-family: "Chalet", Arial;
-  font-weight: 700;
-  font-size: 60px;
   margin-top: 18px;
   margin-bottom:0;
-  letter-spacing: -2px;
-  line-height: 12vw;
-  font-size: 19vw;
   overflow: hidden;
+
+	svg{
+	  width: 100%;
+	  height: auto;
+	  display: block;
+	  position: relative;
+	  overflow: hidden;
+	  margin: 0 auto;
+	  color:#000;
+	}
 
 	@include media($small) {
   	// border-bottom: 5px solid #000;

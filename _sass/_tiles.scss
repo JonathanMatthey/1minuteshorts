@@ -47,8 +47,8 @@
   .post-excerpt {
     @include font-size(18);
     margin-top:5px;
-    font-family: 'FuturaBT-Light';
-    font-weight: 300;
+    font-family: $base-font;
+    font-weight: 200;
     font-style: italic;
   }
   .post-teaser {
