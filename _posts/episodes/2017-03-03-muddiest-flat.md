@@ -7,7 +7,7 @@ author: matthey
 tags: [motocreek, austin texas]
 image:
   feature: muddiest-flat/muddiest-flat-hero.jpg
-  teaser: videos/muddiest-flat.jpg
+  teaser: thumbs/muddiest-flat.gif
 comments: true
 ---
 

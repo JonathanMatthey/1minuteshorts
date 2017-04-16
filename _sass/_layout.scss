@@ -179,7 +179,12 @@
 	.page-title {
 		@include fill-parent;
 		text-align: center;
-		padding: 30px 0 30px 0;
+		padding: 0px 0 30px 0;
+
+		@include media($small) {
+			padding: 30px 0 30px 0;
+		}
+
 
 		h1{
 			text-transform:uppercase;
@@ -366,7 +371,7 @@
 		&::before{
 	    content: " ";
 	    display: block;
-	    height: 351px;
+	    height: 50%;
 	    width: 100%;
 	    position: absolute;
 	    bottom: 0;
@@ -412,36 +417,51 @@
 }
 
 .title-section{
-	padding: 80px 0;
+	padding: 10px 0 20px;
+	@include media($small) {
+		padding: 80px 0;
+	}
 }
 
 .main-site-title{
-	width: 100%;
   display: inline-block;
   padding: 0;
   // border-top: 4px solid #000;
   text-decoration: none;
+  color: #000;
+  font-family: "Chalet", Arial;
+  font-weight: 700;
+  font-size: 60px;
   margin-top: 18px;
   margin-bottom:0;
+  letter-spacing: -3px;
+  line-height: 10vw;
+  font-size: 16vw;
+  text-align:center;
+  padding: 0 10px;
   overflow: hidden;
-
-	svg{
-	  width: 100%;
-	  height: auto;
-	  display: block;
-	  position: relative;
-	  overflow: hidden;
-	  margin: 0 auto;
-	  color:#000;
-	}
+  -webkit-font-smoothing: subpixel-antialiased;
+	-webkit-text-stroke:1px transparent;
+	-webkit-backface-visibility: hidden;
+	width:100%;
+	display: block;
 
 	@include media($small) {
   	// border-bottom: 5px solid #000;
+  	padding: 0;
     font-size: 120px;
     letter-spacing: -2px;
     padding-right: 1px;
-    line-height: 12vw;
-    font-size: 19vw;
+    line-height: 11vw;
+    font-size: 18vw;
+	}
+}
+
+.description{
+	font-size:16px;
+
+	@include media($small) {
+		font-size:18px;
 	}
 }
 
@@ -450,6 +470,8 @@
 }
 
 .filters{
+	padding:0;
+	margin:0;
 	list-style:none;
 	padding-top:0;
 	margin-bottom:20px;
@@ -457,7 +479,13 @@
 
 	li{
 		display: inline-block;
-		margin: 0 20px;
+		display: block;
+		margin: 10px 0;
+
+		@include media($small) {
+			display: inline-block;
+		  margin: 0 20px;
+		}
 
 		a{
 			border:none;
