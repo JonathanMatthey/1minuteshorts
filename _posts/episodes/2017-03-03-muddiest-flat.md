@@ -6,6 +6,7 @@ categories: episodes
 excerpt: "Fixing a flat tire in the field."
 author: matthey
 tags: [motocreek, austin texas]
+youtube_id: "YCsr3CegzpY"
 image:
   cover: muddiest-flat/muddiest-flat-cover.jpg
   feature: muddiest-flat/muddiest-flat-hero.jpg

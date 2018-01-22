@@ -3,6 +3,7 @@ layout: article
 title: "About"
 excerpt: "About 4YADV"
 tags: [Trans American Trail, Pan American Highway, Motorcycle adventure]
+youtube_id: ""
 image:
   feature:
   teaser:

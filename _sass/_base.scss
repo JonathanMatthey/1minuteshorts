@@ -308,8 +308,8 @@ textarea,
 #{$all-text-inputs},
 select,
 select[multiple=multiple] {
-	@include box-sizing(border-box);
-	@include transition(border-color);
+	// @include box-sizing(border-box);
+	// @include transition(border-color);
 	background-color: white;
 	border-radius: $form-border-radius;
 	border: 1px solid $form-border-color;
@@ -358,7 +358,7 @@ select {
 
 form button,
 input[type="submit"] {
-	@extend .btn;
+	// @extend .btn;
 	@include appearance(none);
 	cursor: pointer;
 	user-select: none;

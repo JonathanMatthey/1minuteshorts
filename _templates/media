@@ -5,6 +5,7 @@ modified:
 categories: {{ dir }}
 excerpt:
 tags: []
+youtube_id: ""
 image:
   feature:
   teaser:
