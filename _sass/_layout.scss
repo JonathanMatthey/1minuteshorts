@@ -155,7 +155,7 @@
    ========================================================================== */
 
 #page-wrapper {
-	padding: 0 $gutter*2; // add white space for smaller screens
+	padding: 0 0; // add white space for smaller screens
 	@include size(100% 100%);
 	-webkit-overflow-scrolling: touch;
 	z-index: 2;
@@ -538,25 +538,6 @@
 /*
    Site footer
    ========================================================================== */
-
-#site-footer {
-	@include outer-container;
-	margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
-	margin-top: ((0px + $doc-line-height));
-	padding-bottom: $gutter;
-	font-family: $alt-font;
-  /* Copyright text */
-	.copyright {
-		text-align: center;
-		@include font-size(12);
-		color: lighten($black,60);
-		margin-bottom:0;
-		a {
-			color: lighten($black,60);
-			text-decoration: none;
-		}
-	}
-}
 
 .img-w50{
 	box-sizing:border-box;

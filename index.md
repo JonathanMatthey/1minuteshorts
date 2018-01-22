@@ -5,8 +5,8 @@ title: "WeeMovies: a collection of 1 minute short movies"
 tags: [Trans American Trail, Pan American Highway, Motorcycle adventure]
 ---
 
-<div class="tiles">
+<div class="post-rows">
 {% for post in site.categories.episodes %}
-  {% include post-grid.html %}
+  {% include post-list.html %}
 {% endfor %}
-</div><!-- /.tiles -->
+</div>

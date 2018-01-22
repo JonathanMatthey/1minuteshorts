@@ -1,1 +1,10 @@
-<li>{% if post.date %}<span>{{ post.date | date: "%B %d, %Y" }}</span> &raquo; {% endif %}<a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+<article class="wide-post" data-video-id="{{post.youtube_id}}" itemscope itemtype="http://schema.org/Article">
+  <img class="post-image" src="{{ site.url }}/images/{{ post.image.cover }}" itemprop="image">
+  <div class="wide-post-text">
+    {% if post.date %}
+      <!-- <span class="entry-date date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%b %Y" }}</time></span> -->
+    {% endif %}
+    <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
+    <p class="post-subtitle">{{ post.subtitle }}</p>
+  </div>
+</article>
