@@ -141,17 +141,28 @@
   }
 
   .post-title{
-    @include font-size(50,no);
+    @include font-size(26,no);
     margin-bottom: 0;
     letter-spacing: 2px;
+    line-height:36px;
+
+    @media screen and (min-width: em(480)) {
+      @include font-size(50,no);
+      line-height:50px;
+    }
   }
 
   .post-subtitle{
-    @include font-size(26);
-    margin-top:5px;
+    @include font-size(14);
     font-family: $base-font;
     font-weight: 200;
     font-style: italic;
+    margin-top:0;
+
+    @media screen and (min-width: em(480)) {
+      margin-top:5px;
+      @include font-size(26);
+    }
   }
 }
 
