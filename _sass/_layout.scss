@@ -34,7 +34,7 @@
 		// @include span-columns(4);
 	}
 	// padding-top:10px;
-	font-family: "Chalet", Arial, sans-serif;
+	font-family: "neue-haas", Arial, sans-serif;
 	padding: 0 3px 1px 3px;
 	// border: 2px solid $primary-color;
 	text-decoration: none;
@@ -417,9 +417,9 @@
 }
 
 .title-section{
-	padding: 10px 0 20px;
+	padding: 40px 0 140px;
 	@include media($small) {
-		padding: 80px 0;
+		padding: 140px 0 300px;
 	}
 }
 
@@ -429,14 +429,14 @@
   // border-top: 4px solid #000;
   text-decoration: none;
   color: #000;
-  font-family: "Chalet", Arial;
+  font-family: "neue-haas", Arial;
   font-weight: 700;
   font-size: 60px;
   margin-top: 18px;
   margin-bottom:0;
-  letter-spacing: -3px;
+  letter-spacing: -1.5px;
   line-height: 10vw;
-  font-size: 16vw;
+  font-size: 10vw;
   text-align:center;
   padding: 0 10px;
   overflow: hidden;
@@ -453,15 +453,20 @@
     letter-spacing: -2px;
     padding-right: 1px;
     line-height: 11vw;
-    font-size: 18vw;
+    font-size: 4vw;
 	}
 }
 
+#homepage-hr{
+	display: none;
+}
+
 .description{
-	font-size:16px;
+	display: none;
+	font-size:12px;
 
 	@include media($small) {
-		font-size:18px;
+		font-size:16px;
 	}
 }
 

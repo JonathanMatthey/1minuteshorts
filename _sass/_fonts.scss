@@ -57,35 +57,54 @@
   font-style: normal;
 }
 
+// @font-face {
+//   font-family: 'Chalet-light';
+//   src: url('../fonts/Chalet-ParisNineteenEighty.eot');
+//   src: url('../fonts/Chalet-ParisNineteenEighty.eot?#iefix') format('embedded-opentype'),
+//     url('../fonts/Chalet-ParisNineteenEighty.woff') format('woff'),
+//     url('../fonts/Chalet-ParisNineteenEighty.ttf') format('truetype');
+//   font-weight: 500;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Chalet-heavy';
+//   src: url('../fonts/Chalet-NewYorkNineteenEighty.eot');
+//   src: url('../fonts/Chalet-NewYorkNineteenEighty.eot?#iefix') format('embedded-opentype'),
+//     url('../fonts/Chalet-NewYorkNineteenEighty.woff') format('woff'),
+//     url('../fonts/Chalet-NewYorkNineteenEighty.ttf') format('truetype');
+//   font-weight: 500;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Chalet';
+//   src: url('../fonts/Chalet-LondonNineteenEighty.eot');
+//   src: url('../fonts/Chalet-LondonNineteenEighty.eot?#iefix') format('embedded-opentype'),
+//     url('../fonts/Chalet-LondonNineteenEighty.woff') format('woff'),
+//     url('../fonts/Chalet-LondonNineteenEighty.ttf') format('truetype');
+//   font-style: normal;
+// }
+
 @font-face {
-  font-family: 'Chalet-light';
-  src: url('../fonts/Chalet-ParisNineteenEighty.eot');
-  src: url('../fonts/Chalet-ParisNineteenEighty.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Chalet-ParisNineteenEighty.woff') format('woff'),
-    url('../fonts/Chalet-ParisNineteenEighty.ttf') format('truetype');
-  font-weight: 500;
+  font-family: 'neue-haas';
+  src: url('../fonts/neue-haas-unica-pro-regular.eot');
+  src: url('../fonts/neue-haas-unica-pro-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/neue-haas-unica-pro-regular.woff') format('woff'),
+    url('../fonts/neue-haas-unica-pro-regular.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Chalet-heavy';
-  src: url('../fonts/Chalet-NewYorkNineteenEighty.eot');
-  src: url('../fonts/Chalet-NewYorkNineteenEighty.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Chalet-NewYorkNineteenEighty.woff') format('woff'),
-    url('../fonts/Chalet-NewYorkNineteenEighty.ttf') format('truetype');
-  font-weight: 500;
+  font-family: 'Larsseit';
+  src: url('../fonts/Larsseit-Medium.eot');
+  src: url('../fonts/Larsseit-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Larsseit-Medium.woff') format('woff'),
+    url('../fonts/Larsseit-Medium.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
 }
-
-@font-face {
-  font-family: 'Chalet';
-  src: url('../fonts/Chalet-LondonNineteenEighty.eot');
-  src: url('../fonts/Chalet-LondonNineteenEighty.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Chalet-LondonNineteenEighty.woff') format('woff'),
-    url('../fonts/Chalet-LondonNineteenEighty.ttf') format('truetype');
-  font-style: normal;
-}
-
 
 @font-face {
   font-family: 'GuardianEgyptianRegular';
