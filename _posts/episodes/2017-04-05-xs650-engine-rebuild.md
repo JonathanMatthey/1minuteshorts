@@ -2,14 +2,13 @@
 layout: article
 title: "XS650 engine rebuild"
 subtitle: "Limey Bikes, Austin, Texas"
-categories: episodes
+categories: episode travel
 excerpt: "a 4 hour job in a minute"
 author: matthey
 tags: [xs650, motorycle garage, motorcycle build]
 youtube_id: "QeMsf_wDL8I"
 image:
-  cover: xs650-engine-rebuild/xs650-engine-rebuild-cover.jpg
-  feature: xs650-engine-rebuild/xs650-engine-rebuild-hero.jpg
+  cover: travel/xs650-engine-rebuild-cover.jpg
   teaser: thumbs/xs650-rebuild2.gif
 comments: true
 ---

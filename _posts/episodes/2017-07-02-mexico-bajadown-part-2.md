@@ -2,13 +2,12 @@
 layout: article
 title: "Baja Down - Part II"
 subtitle: "Baja California, Mexico"
-categories: episodes
+categories: episode travel
 excerpt: ""
 author: matthey
 tags: []
 youtube_id: "31270q9MWvs"
 image:
-  cover: baja-down-part-2/baja-down-part-2-cover.jpg
-  feature: baja-down-part-2/baja-down-part-2-hero.jpg
+  cover: travel/baja-down-part-2-cover.jpg
 comments: true
 ---

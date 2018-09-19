@@ -2,13 +2,12 @@
 layout: article
 title: "Guanajuato"
 subtitle: "Mexico"
-categories: episodes
+categories: episode travel
 excerpt: ""
 author: matthey
 tags: []
 youtube_id: "buxiLjxgMpU"
 image:
-  cover: guanajuato/guanajuato-cover.jpg
-  feature: guanajuato/guanajuato-hero.jpg
+  cover: travel/guanajuato-cover.jpg
 comments: true
 ---

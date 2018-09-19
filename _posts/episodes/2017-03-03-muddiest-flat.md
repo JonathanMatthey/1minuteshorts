@@ -2,14 +2,13 @@
 layout: article
 title: "The Muddiest Flat"
 subtitle: "Austin, Texas"
-categories: episodes
+categories: episode travel
 excerpt: "Fixing a flat tire in the field."
 author: matthey
 tags: [motocreek, austin texas]
 youtube_id: "YCsr3CegzpY"
 image:
-  cover: muddiest-flat/muddiest-flat-cover.jpg
-  feature: muddiest-flat/muddiest-flat-hero.jpg
+  cover: travel/muddiest-flat-cover.jpg
   teaser: thumbs/muddiest-flat.gif
 comments: true
 ---

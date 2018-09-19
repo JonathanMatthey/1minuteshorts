@@ -2,13 +2,12 @@
 layout: article
 title: "Gracie Barra"
 subtitle: "East Austin, Texas"
-categories: episodes
+categories: episode travel
 excerpt: ""
 author: matthey
 tags: []
 youtube_id: "FTRSKfMejmo"
 image:
-  cover: gracie-barra-eatx/gracie-barra-eatx-cover.jpg
-  feature: gracie-barra-eatx/gracie-barra-eatx-hero.jpg
+  cover: travel/gracie-barra-eatx-cover.jpg
 comments: true
 ---

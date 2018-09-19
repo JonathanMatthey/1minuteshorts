@@ -2,14 +2,13 @@
 layout: article
 title: "Lonestar RoundUp"
 subtitle: "Austin, Texas"
-categories: episodes
+categories: episode travel
 excerpt: "Hot roads, dragsters and custom car show."
 author: matthey
 tags: [motocreek, austin texas]
 youtube_id: "LA_K-Tc9hgw"
 image:
-  cover: lonestar-roundup/lonestar-roundup-cover.jpg
-  feature: lonestar-roundup/lonestar-roundup-hero1.jpg
+  cover: travel/lonestar-roundup-cover.jpg
   teaser: thumbs/lonestar-roundup.gif
 comments: true
 ---

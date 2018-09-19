@@ -2,13 +2,12 @@
 layout: article
 title: "Biking Brothers"
 subtitle: "Colombia"
-categories: episodes
+categories: episode travel
 excerpt: ""
 author: matthey
 tags: []
 youtube_id: "ScsVI5T3OWo"
 image:
-  cover: biking-brothers/biking-brothers-cover.jpg
-  feature: biking-brothers/biking-brothers-hero.jpg
+  cover: travel/biking-brothers-cover.jpg
 comments: true
 ---

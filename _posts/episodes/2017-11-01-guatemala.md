@@ -2,13 +2,12 @@
 layout: article
 title: "Cerotes"
 subtitle: "Guatemala"
-categories: episodes
+categories: episode travel
 excerpt: ""
 author: matthey
 tags: []
 youtube_id: "VjEIaX9tmiI"
 image:
-  cover: guatemala/guatemala-cover.jpg
-  feature: guatemala/guatemala-hero.jpg
+  cover: travel/guatemala-cover.jpg
 comments: true
 ---
